@@ -1535,4 +1535,4 @@ client.on('message', async msg=> {
   }
 });
 
-client.login(tokens.token);
+client.login(process.env.BOT_TOKEN);
